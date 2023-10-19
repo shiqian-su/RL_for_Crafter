@@ -37,7 +37,9 @@ from torchrl.objectives.value import GAE
 from torchrl.objectives.utils import hold_out_net
 from tqdm import tqdm
 
-
+import gym
+import crafter
+#following part should not be used
 import minedojo
 from controllers.utils import *
 
